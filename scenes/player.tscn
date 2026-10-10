@@ -181,7 +181,6 @@ current_weapon = ExtResource("2_oprun")
 [node name="Node" type="Node2D" parent="." unique_id=88231523]
 
 [node name="hit_box" type="Area2D" parent="Node" unique_id=61075234]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/hit_box" unique_id=884511599]
 position = Vector2(6, -20)
@@ -189,10 +188,8 @@ shape = SubResource("RectangleShape2D_ly64n")
 debug_color = Color(0.98691183, 0, 0.3235212, 0.41960785)
 
 [node name="hurt_box" type="Area2D" parent="Node" unique_id=2025308923]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node/hurt_box" unique_id=2133749068]
-visible = false
 position = Vector2(-2.1875, -20)
 shape = SubResource("RectangleShape2D_em7m8")
 debug_color = Color(0, 0.64020807, 0.3580102, 0.41960785)

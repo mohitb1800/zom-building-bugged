@@ -58,6 +58,8 @@ func kill_enemies():
 
 func level_complete():
 	EventBus.level_number += 1
+	enemy_spawn_manager.change_difficulty(EventBus.level_number)
+	label_3.text = "Floor : " + str(EventBus.level_number)
 	EventBus.player.set_checkpoint()
 	get_tree().paused = true
 	level_clear_label.visible = true

@@ -361,6 +361,7 @@ text = "Lift unlocked!
 going to the next floor"
 
 [node name="CanvasModulate2" type="CanvasModulate" parent="CanvasLayer/Label" unique_id=538011308]
+visible = false
 position = Vector2(-445, -192)
 color = Color(0.27450982, 0.44313726, 0.81960785, 1)
 
